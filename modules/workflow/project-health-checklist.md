@@ -17,6 +17,7 @@ Use this checklist during maintenance, before handoff, or before a major release
 - [ ] Known issues include impact and workarounds.
 - [ ] Open questions have owners or next actions.
 - [ ] Session notes explain how to resume.
+- [ ] Design review notes capture recent UX/UI, design system, or retention findings when relevant.
 
 ## Engineering Health
 
@@ -32,4 +33,3 @@ Use this checklist during maintenance, before handoff, or before a major release
 - [ ] Contributors know how to make safe changes.
 - [ ] Maintenance work is visible.
 - [ ] Handoff can happen without private context.
-

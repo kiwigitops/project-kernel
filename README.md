@@ -125,6 +125,41 @@ You can copy a module directly, follow a pack's module list, or use the lightwei
 | [`open-source-launch-pack`](packs/open-source-launch-pack) | You are preparing a public repo. | README, contributing, roadmap, changelog, issue triage, release guidance |
 | [`ai-builder-pack`](packs/ai-builder-pack) | You use AI-assisted coding or vibe coding workflow patterns. | Memory, skills, prompts, implementation standards, review loops |
 
+## Integrated Skills (Sourced + Curated)
+
+Project Kernel now includes a curated set of real-world Claude skills for product design, UI/UX, usability, platform design, retention, and visual refactoring.
+
+These are not invented from scratch. They were sourced from public implementations, then cleaned, normalized, attributed, and integrated into the Project Kernel skill format:
+
+```text
+modules/skills/
+|-- design-sprint/
+|-- ui-ux-system-generator/
+|-- ios-platform-design/
+|-- usability-audit/
+|-- retention-hook-analysis/
+\-- ui-refactor-visual-audit/
+```
+
+Primary source families include [Wondel.ai skills](https://github.com/wondelai/skills), [BehiSecc's awesome Claude skills index](https://github.com/BehiSecc/awesome-claude-skills), [Smithery skill listings](https://smithery.ai), [OilOil UI/UX Guide](https://github.com/oil-oil/oiloil-ui-ux-guide), [Claude CraftKit UI skills](https://github.com/marcioaltoe/claude-craftkit), and [Tyr Chen's design-guide skill](https://github.com/tyrchen/claude-skills/tree/main/design-guide).
+
+The integration improves the originals for this system by:
+
+- converting each skill into `SKILL.md`, `checklist.md`, and reusable templates,
+- standardizing activation, inputs, process, output, common mistakes, and related skills,
+- connecting outputs to project memory files,
+- linking the skills into the product design workflow,
+- and preserving source attribution inside each skill.
+
+Usage example:
+
+```text
+Copy modules/skills/usability-audit/ into a project.
+Open SKILL.md.
+Run the checklist against a screenshot, Figma frame, or component.
+Save critical findings to memory/KNOWN-ISSUES.md and unresolved questions to memory/OPEN-QUESTIONS.md.
+```
+
 ## Example Project Setups
 
 ### Solo Developer Starting A New App

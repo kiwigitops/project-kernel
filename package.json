@@ -1,6 +1,6 @@
 {
   "name": "project-kernel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A drag-and-drop project operating system for seeding repos with structure, documentation, memory, workflows, and reusable developer skills.",
   "private": true,
   "license": "MIT",
@@ -20,4 +20,3 @@
     "ai-coding-workflow"
   ]
 }
-

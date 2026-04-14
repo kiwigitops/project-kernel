@@ -10,6 +10,7 @@ Use this module to define how work moves through the project: planning, implemen
 4. [`documentation-workflow.md`](documentation-workflow.md)
 5. [`release-workflow.md`](release-workflow.md)
 6. [`project-health-checklist.md`](project-health-checklist.md)
+7. [`product-design-workflow.md`](product-design-workflow.md)
 
 ## Core Loop
 

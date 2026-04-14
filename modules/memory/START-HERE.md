@@ -10,6 +10,7 @@ Use this module to preserve project context over time. It is especially useful f
 4. [`WORKING-ASSUMPTIONS.template.md`](WORKING-ASSUMPTIONS.template.md)
 5. [`SESSION-NOTES.template.md`](SESSION-NOTES.template.md)
 6. [`ONBOARDING-CHECKLIST.template.md`](ONBOARDING-CHECKLIST.template.md)
+7. [`DESIGN-REVIEW-NOTES.template.md`](DESIGN-REVIEW-NOTES.template.md)
 
 ## Update Rhythm
 

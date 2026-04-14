@@ -1,5 +1,6 @@
 # Local install smoke tests
 .tmp-install-test/
+.tmp-sources/
 
 # Dependencies
 node_modules/
@@ -12,4 +13,3 @@ node_modules/
 Thumbs.db
 .vscode/
 .idea/
-
