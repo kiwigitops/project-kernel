@@ -1,0 +1,23 @@
+{
+  "name": "project-kernel",
+  "version": "0.1.0",
+  "description": "A drag-and-drop project operating system for seeding repos with structure, documentation, memory, workflows, and reusable developer skills.",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "install-pack": "node scripts/install-pack.js",
+    "validate": "node scripts/validate-structure.js",
+    "index": "node scripts/generate-readme-index.js"
+  },
+  "keywords": [
+    "developer-starter-kit",
+    "project-template-system",
+    "project-scaffolding",
+    "documentation-toolkit",
+    "developer-workflow",
+    "project-memory-system",
+    "ai-coding-workflow"
+  ]
+}
+

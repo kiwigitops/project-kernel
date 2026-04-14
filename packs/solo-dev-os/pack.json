@@ -1,0 +1,7 @@
+{
+  "name": "solo-dev-os",
+  "description": "A continuity-first operating system for durable solo projects.",
+  "modules": ["foundation", "docs", "memory", "workflow", "philosophy"],
+  "extras": ["extras"]
+}
+

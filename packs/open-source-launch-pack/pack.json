@@ -1,0 +1,7 @@
+{
+  "name": "open-source-launch-pack",
+  "description": "Public-repo documentation, contribution, release, and roadmap readiness.",
+  "modules": ["foundation", "docs", "workflow"],
+  "extras": ["extras"]
+}
+

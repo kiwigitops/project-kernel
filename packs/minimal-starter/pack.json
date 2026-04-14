@@ -1,0 +1,7 @@
+{
+  "name": "minimal-starter",
+  "description": "The smallest serious Project Kernel setup.",
+  "modules": ["foundation"],
+  "extras": []
+}
+

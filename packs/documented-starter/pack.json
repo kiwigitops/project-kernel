@@ -1,0 +1,7 @@
+{
+  "name": "documented-starter",
+  "description": "Foundation plus strong documentation and workflow guidance.",
+  "modules": ["foundation", "docs", "workflow"],
+  "extras": []
+}
+

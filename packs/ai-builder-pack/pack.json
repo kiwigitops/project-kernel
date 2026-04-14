@@ -1,0 +1,7 @@
+{
+  "name": "ai-builder-pack",
+  "description": "A context-first pack for AI-assisted coding and reviewable generated work.",
+  "modules": ["foundation", "memory", "skills", "workflow", "philosophy"],
+  "extras": ["extras"]
+}
+

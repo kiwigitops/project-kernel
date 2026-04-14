@@ -1,0 +1,7 @@
+{
+  "name": "team-handoff-pack",
+  "description": "Documentation and memory for onboarding or transferring a project.",
+  "modules": ["docs", "memory", "workflow"],
+  "extras": ["extras"]
+}
+
